@@ -1,24 +1,14 @@
-# README
+# GymTracker
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Custom Ruby on Rails web app for tracking gym progress.
 
-Things you may want to cover:
+## Development Setup
 
-* Ruby version
+* Clone the repo
+* cd into the directory
+* Run `bundle install` to download dependencies
+* Run `rails server` and open browser to http://localhost:3000/
+* Create a new branch. Branch naming convention: firstname-feature
+* Commit code, push branch, create pull request into master branch
 
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+## Deployment
