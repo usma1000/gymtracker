@@ -44,8 +44,8 @@ group :development do
   gem 'spring-watcher-listen', '~> 2.0.0'
   # Thoughtbot Gems for styles, components, and grid system
   gem 'bourbon'
-  gem 'neat'
-  gem 'bitters'
+  gem 'neat', '1.8.0'
+  gem 'bitters', '1.2.0'
   gem 'refills'
 end
 
@@ -54,4 +54,4 @@ gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 
 # Authentication through facebook
 gem 'omniauth'
-gem 'omniauth-facebook', '1.4.0'
+gem 'omniauth-facebook'
