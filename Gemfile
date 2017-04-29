@@ -54,3 +54,4 @@ gem 'omniauth-facebook', '1.4.0'
 # Thoughtbot Gems for styles, components, and grid system
 gem 'bourbon'
 gem 'neat'
+gem 'bitters'

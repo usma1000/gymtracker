@@ -1,5 +1,6 @@
 // I deleted Sprockets (require, require_tree, require_self) and used SASS import commands.
 
 @import "bourbon";
+@import "base/base";
 @import "neat";
 @import "welcome";
