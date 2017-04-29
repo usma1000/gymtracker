@@ -50,3 +50,6 @@ gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 # Authentication through facebook
 gem 'omniauth'
 gem 'omniauth-facebook', '1.4.0'
+
+# Thoughtbot Gems for styles, components, and grid system
+gem 'bourbon'
