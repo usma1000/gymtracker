@@ -1,0 +1,7 @@
+// I deleted Sprockets and used SASS import commands.
+body {margin:0}
+@import "bourbon";
+@import "base/base";
+@import "neat";
+@import "refills/centered-navigation";
+@import "welcome";
