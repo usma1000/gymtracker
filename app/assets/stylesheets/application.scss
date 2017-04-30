@@ -5,3 +5,15 @@ body {margin:0}
 @import "neat";
 @import "refills/centered-navigation";
 @import "welcome";
+@import "exercises";
+@import "routines";
+
+.container {
+  margin: 20px;
+}
+
+.container::after {
+  clear: both;
+  content: "";
+  display: block;
+}
