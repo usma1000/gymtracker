@@ -28,6 +28,12 @@ gem 'jbuilder', '~> 2.5'
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
 
+# Thoughtbot Gems for styles, components, and grid system
+gem 'bourbon'
+gem 'neat', '1.8.0'
+gem 'bitters', '1.2.0'
+gem 'refills'
+
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
   gem 'byebug', platform: :mri
@@ -42,11 +48,6 @@ group :development do
   # Spring speeds up development by keeping your application running in the background. Read more: https://github.com/rails/spring
   gem 'spring'
   gem 'spring-watcher-listen', '~> 2.0.0'
-  # Thoughtbot Gems for styles, components, and grid system
-  gem 'bourbon'
-  gem 'neat', '1.8.0'
-  gem 'bitters', '1.2.0'
-  gem 'refills'
 end
 
 group :production do
